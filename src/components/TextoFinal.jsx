@@ -1,0 +1,13 @@
+import React from 'react'
+
+const TextoFinal = ({textClass, textoFinal}) => {
+  return (
+    <div className="" id="info">
+        <div className="w-full h-full flex flex-col justify-center items-center gap-y-5">
+            <h2 className={`text-gray-600 px-5 md:px-0 text-center ${textClass}`}>{textoFinal}</h2>
+        </div>
+    </div>
+  )
+}
+
+export default TextoFinal
