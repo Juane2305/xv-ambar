@@ -46,6 +46,7 @@ const Asistencia = ({ clase, claseButton, claseTitle, linkAsistencia }) => {
                 Confirmar asistencia
               </button>
             </a>
+            <p className="text-gray-600 italic text-lg mt-5">Confirmar antes del 30/01</p>
           </div>
         </div>
       )}

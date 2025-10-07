@@ -94,10 +94,11 @@ const Invitacion = () => {
             hora_civil="21:00hs"
           />
           <a href="https://maps.app.goo.gl/wCDupdcL1XpYLo5m9" target="_blank" rel="noopener noreferrer">
-            <button className="border-2 border-gray-700 my-5 py-3 px-8 rounded-full text-gray-800 font-semibold hover:text-gray-600 transition">
+            <button className="border-2 border-gray-700 mb-5 py-3 px-8 rounded-full text-gray-800 font-semibold hover:text-gray-600 transition">
               CÓMO LLEGAR
             </button>
           </a>
+          <p className="text-gray-600 italic text-lg">Tolerancia hasta las 21:30 hs</p>
         </section>
 
           <div className="relative bg-white">
