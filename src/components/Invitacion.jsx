@@ -11,8 +11,6 @@ import Asistencia from "./Asistencia";
 import Footer from "./Footer";
 import TextoFinal from "./TextoFinal";
 import LugaresXV from "./LugaresXV";
-import { FocusCardsDemo } from "./FocusCardsDemo";
-import decoracionImagenes from "../assets/esmeralda/decoracionImagenes.svg";
 
 import DressCodeEsmeralda from "./DressCodeEsmeralda";
 import song from '../assets/song.mp3'
@@ -61,6 +59,27 @@ const Invitacion = () => {
             </div>
         </div>
       </div>
+
+      {/* <section className="pb-10 bg-white">
+        <FocusCardsDemo
+          texto=""
+          images={[
+            {
+              index: 1,
+              img: "https://res.cloudinary.com/dfschbyq2/image/upload/v1759848278/WhatsApp_Image_2025-10-06_at_7.55.31_PM_nhdpli.jpg",
+            },
+          ]}
+        />
+      </section> */}
+
+      <section className="flex justify-center bg-white py-10">
+        <img
+          src="https://res.cloudinary.com/dfschbyq2/image/upload/v1759848278/WhatsApp_Image_2025-10-06_at_7.55.31_PM_nhdpli.jpg"
+          alt="Imagen 1"
+          className="rounded-lg shadow-md"
+        />
+      </section>
+
       <div className="font-brushNames text-2xl bg-white flex flex-col items-center justify-center">
         <img src={corona} alt="" className="w-52 py-7"/>
           <TextoFinal textoFinal="Dicen que cuando despertamos tenemos diez segundos para recordar lo que soñamos la noche anterior... Un sueño que hoy es realidad"/>
@@ -84,7 +103,7 @@ const Invitacion = () => {
             />
           </section>
 
-        <section id="lugares" className="relative text-center bg-white">
+        <section id="lugares" className="relative text-center bg-white pb-24">
           <LugaresXV
             iglesia="[Nombre iglesia]"
             hora_iglesia="10:00hs"
@@ -101,26 +120,8 @@ const Invitacion = () => {
           <p className="text-gray-600 italic text-lg">Tolerancia hasta las 21:30 hs</p>
         </section>
 
-          <div className="relative bg-white">
-            <img
-              src={decoracionImagenes}
-              alt="Decoración lateral"
-              className="hidden md:block absolute -left-44 top-1/2 transform -translate-y-1/2 pointer-events-none"
-              style={{
-                width: "30rem",
-                transform: "translateY(-50%) scaleX(-1)",
 
-              }}
-            />
-            <img
-              src={decoracionImagenes}
-              alt="Decoración lateral invertida"
-              className="hidden md:block absolute -right-44 top-1/2 transform -translate-y-1/2 pointer-events-none"
-              style={{
-                 width: "30rem" ,
-                }}
-            />
-            <section className="pb-16">
+            {/* <section className="pb-16">
                 <FocusCardsDemo
                     texto=""
                   images={[
@@ -134,8 +135,7 @@ const Invitacion = () => {
                     },
                   ]}
                 />
-            </section>
-          </div>
+            </section> */}
 
           <div className="bg-[#6b4e71] text-center relative text-white">
             <GoogleCalendarButton
@@ -207,6 +207,26 @@ const Invitacion = () => {
         <div className="font-brushNames text-2xl bg-white py-10">
           <TextoFinal textoFinal="Su presencia ayudará a transformar mi noche inolvidable" />
         </div>
+
+        {/* <section className="pb-10 bg-white">
+          <FocusCardsDemo
+            texto=""
+            images={[
+              {
+                index: 2,
+                img: "https://res.cloudinary.com/dfschbyq2/image/upload/v1759848285/WhatsApp_Image_2025-10-06_at_7.55.31_PM_1_j8dqtj.jpg",
+              },
+            ]}
+          />
+        </section> */}
+
+        <section className="flex justify-center bg-white py-10">
+          <img
+            src="https://res.cloudinary.com/dfschbyq2/image/upload/v1759848285/WhatsApp_Image_2025-10-06_at_7.55.31_PM_1_j8dqtj.jpg"
+            alt="Imagen 2"
+            className="rounded-lg shadow-md"
+          />
+        </section>
 
         <Footer />
       </div>

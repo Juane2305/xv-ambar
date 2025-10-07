@@ -16,7 +16,7 @@ export const Card = React.memo(({ card, index, hovered, setHovered, onOpen }) =>
     <img
       src={card.img}  
       alt={`Imagen ${card.index}`}
-      className="object-cover absolute inset-0 w-full h-full"
+      className="object-contain absolute inset-0 w-full h-full"
     />
   </div>
 ));
